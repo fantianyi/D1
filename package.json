@@ -1,0 +1,48 @@
+{
+  "name": "d1",
+  "version": "0.1.0",
+  "description": "An Electron application for d1.dmsng.com",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js",
+    "build": "./scripts/build-all.sh",
+    "build:osx": "./scripts/build.sh darwin x64",
+    "build:osx64": "./scripts/build.sh darwin x64",
+    "build:linux32": "./scripts/build.sh linux ia32",
+    "build:linux": "./scripts/build.sh linux x64",
+    "build:linux64": "./scripts/build.sh linux x64",
+    "build:win": ".\\scripts\\build-win32.bat win32 ia32",
+    "build:win32": ".\\scripts\\build-win32.bat win32 ia32",
+    "build:win64": ".\\scripts\\build-win32.bat win32 x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fantianyi/D1.git"
+  },
+  "keywords": [
+    "Electron",
+    "D1",
+    "dmsng",
+    "Web"
+  ],
+  "author": "Fan TianYi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fantianyi/D1/issues"
+  },
+  "homepage": "https://github.com/fantianyi/D1",
+  "dependencies": {
+    "electron": "^1.4.6",
+    "electron-packager": "^8.2.0",
+    "nconf": "^0.8.4",
+    "pinyin": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.1.2"
+  }
+}
