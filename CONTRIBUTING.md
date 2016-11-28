@@ -1,19 +1,29 @@
-# Contributing to D1
+# Contributing to Electron API Demos
 
-First of all, thanks for contributing to this project. It would be appreciated if you read through this contributing guide.
+[![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com)
 
-## Issues
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-- Check if your issue is already [there](https://github.com/fantianyi/D1/issues). 
+This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
+By participating, you are expected to uphold this code. Please report unacceptable
+behavior to [electron@github.com](mailto:electron@github.com).
 
-- Check if your issue is `D1` related rather than upstream related.
+**See the [documentation](docs.md) for information on how this project works.**
 
-- Follow the guide in the issue template.
+## Code Style & ES6
 
-## Pull Requests
+This project uses the [JavaScript Standard](http://standardjs.com) style and limited E6 syntax.
 
-PR are always welcomed. It's better if you put up an issue before firing a PR. **Remember**, the smaller your focus, the better chance to get merged.
+Because this project is intended for beginners we stick to mostly vanilla JavaScript. One of the features we want illustrate about Electron, however, is that you can use most of ES6 out of the box. To that end, in this project we use these parts of ES6:
 
-## Be a collaborator!
+- [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+- [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+- [string templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
-If you are excited about the project, and happen to have skills in Angular, Node, Electron, or else. Do not hesitate to contact me. Let's build together!
+## Pull Requests and Issues
+
+Tips for making an easier-to-review contribution:
+
+- Please provide a description.
+- Include screenshots and animated GIFs whenever possible.
+- Use short, present tense commit messages.
