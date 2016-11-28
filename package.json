@@ -5,6 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron src/main.js",
+    "debug": "electron . --debug",
     "build": "./scripts/build-all.sh",
     "build:osx": "./scripts/build.sh darwin x64",
     "build:osx64": "./scripts/build.sh darwin x64",
